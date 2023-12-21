@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  background-color: pink;
+}
+
+/* Style tab links */
+.tablink {
+  /* background-color: #555; */
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+  background-color: pink;
+}
+.description{
+   color: black;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  background-color: pink;
+}
+
+#Home {background-color:pink;}
+#Environment {background-color:pink;}
+#History{background-color: pink;}
+#Tourist Spot {background-color: pink;}
+</style>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('Environment', this, 'green')" >Environment</button>
+<button class="tablink" onclick="openPage('History', this, 'blue')">History</button>
+<button class="tablink" onclick="openPage('Tourist Spot', this, 'orange')">Tourist Spot</button>
+
+<div id="Home" class="tabcontent">
+  <img src="images/aiza.jpg" alt="home" style="width:100%;">
+</div>
+
+<div id="Environment" class="tabcontent">
+  <img src="images/environment.jpg" alt="envi" style="width:100%;">
+  <br><br><br><br>
+  <img src="images/envi.2.jpg" alt="envi" style="width:100%;">
+  <br><br><br><br>
+ <p class="description"> Ang Bantayan Bay mao ang pinakabag-o nga atraksyon 
+  sa baybayon sa lungsod sa Cordova. Pristine natural nga katahom ala 
+  "Maldives" feels sa Bora Bora ug Bantayan Bay nga nahimutang sa Sitio 
+  Bantayan. Ang Bantayan Bay usa ka puti nga sandbar nga adunay mga bakhaw 
+  pipila lang ka metros ang gilay-on gikan sa baybayon sa Cordova.
+   Gipasigarbo niini ang matahum nga turquoise nga tubig nga 
+   naggilak-gilak sama sa bildo sa usa ka masanag, hayag nga adlaw. 
+   Kini siguradong adunay hitsura sa bakasyon sa ting-init nga adunay 
+   bukas nga wanang nga layo sa baybayon ug usa ka puti nga balas nga
+    higdaanan sa ilawom sa lebel sa hawak nga tubig. Paglangoy sa makapalagsik 
+    nga mabaw nga tubig sa matahum nga sandbar samtang naglingaw sa lumad nga
+     naglutaw nga mga cottage.
+</p>>
+
+</div>
+
+<div id="History" class="tabcontent">
+  <img src="images/museum.jpg" alt="envi" style="width:100%;">
+  <br><br><br><br>
+  <img src="images/history.jpg" alt="envi" style="width:100%;">
+  <br><br><br><br>
+  <img src="images/history3.jpg" alt="envi" style="width:100%;">
+  <br><br><br><br>
+  <p class="description"> Sa Municipal hall sa Cordova, ang Sugbo 
+    usa ka karaang balay nga gipanag-iya sa political clan nga si
+     "Sitoy" nga karon usa na ka Museum of Cordova. Ang museyo 
+     adunay karaan nga mga relikyas nga relihiyoso nga gigamit 
+     kaniadto sa simbahan ug pipila ka mga butang nga nakit-an 
+     sa museyo gidonar sa mga lokal nga cordovahanon aron i-display 
+     sa museyo, nainteres ako nga moadto sa museyo tungod kay gusto
+      nako ang mga hinagiban ug gi-display sa museyo. mga karaang kutsilyo.
+       Libre ang museyo bisan pa, wala’y entrada, hinaut lang nga mamentinar
+        kini og maayo sa lokal nga gobyerno tungod kay ang mga museyo gituyo 
+        aron tan-awon kung unsa ka adunahan ang kultura.</p>
+</div>
+
+<div id="Tourist Spot" class="tabcontent">
+  <img src="images/tourist.jpg" alt="envi" style="width:100%;">
+  <br><br><br><br>
+  <img src="images/TOURIST1.jpg" alt="envi" style="width:100%;">
+  <br><br><br><br>
+  <p class="description">Ang Sungka Native Restaurant mao ang destinasyon 
+    alang kanimo, kung nangita ka og talagsaon ug halandumon nga kasinatian 
+    sa pagpangaon sa Cebu. Umari ka ug tagamtama ang kalinaw sa koi pond 
+    samtang magtagamtam sa lamiang lami sa pagkaong Filipino.
+    Ang restawran nahilayo gikan sa kasamok sa lungsod sa usa ka kalmado, 
+    hilit nga lugar. Ang mga diner makatagamtam sa malinawon ug suod nga 
+    kahimtang alang sa mga panihapon. Ang tradisyonal nga pagkaon nga Pilipino 
+    nga adunay espesyalidad sa presko nga seafood makita sa menu sa Dine by the Pond.
+     Makakaon ka og pork BBQ, scallops, guso, ug sinigang na baboy. Ang establisemento 
+     sa kan-anan naglakip usab sa usa ka bar nga adunay lamian nga mga dessert ug mga 
+     lokal nga beer.
+  </p>>
+  <br><br><br><br>
+  <img src="images/tourist2.jpg" alt="envi" style="width:100%;">
+  <br><br><br><br>
+ <p class="description"> Ang 10,000 Roses Café usa ka Korean-owned café nga giinspirar 
+  sa iladong Dongdaemun Design Plaza sa South Korea. Ang café adunay sulod ug gawas nga 
+  mga kan-anan nga adunay modernong mga lingkoranan ug lamesa, LED-powdered nga mga rosas,
+   ug usa ka viewing deck nga gilibutan sa bildo nga mga bungbong, nga naghimo niini nga 
+   usa ka Instagram-worthy nga lokasyon. Cordova, Mactan Island, Cebu, Philippines.
+    Ang café nahimutang sa Barangay Day-as sa Cordova.  Ang Pagdagsang sa mga bisita sa
+     dapit mianhi aron makita sa ilang kaugalingon ug malingaw sa puti nga kahayag nga 
+     nagbuga gikan sa sulod sa puti nga mga bulak mismo. Pinaagi sa dalan, dili kini 
+     tinuod nga mga bulak, dayag, apan hinimo sa sintetikong ug plastik nga mga petals
+      nga ang matag usa gisuportahan sa mga metal nga nagsilbing mga punoan nga nagbarog. 
+       Kung gi-on ang gahum, nahimo silang nagdan-ag nga uma sa mga bulak nga nagmugna 
+       sama sa usa ka pantasya nga damgo. Pinaagi sa dalan, ang teknolohiya gitawag nga 
+       LED (light-emitting diode).</p>
+  <br><br><br><br>
+  <img src="images/rntoy.jpg" alt="envi" style="width:100%;">
+  <br><br><br><br>
+  <p class="description"> Ang istorya ni Mang Entoy isip mangingisda ug ang 
+    iyang gamay nga bakasihan (reef-eel stew sa English) sa Barangay Buagsong,
+     lungsod sa Cordova sa Isla sa Mactan gipakita sa dokumentaryo sa Street
+      Food-Asia sa Netflix niadtong 2019. Nailhan ang Bakasihan ni Entoy tungod 
+      sa lamian nga Eel Stew nga orihinal nga gikan sa resipe ni Manong Entoy, 
+      ang tag-iya. Ang iyang lugar gipakita sa orihinal nga serye sa dokumentaryo 
+      sa Netflix, Street Food Asia. Ang espesyal nga putahe sa Bakasihan ni Entoy
+       mao ang Nilarang Bakasi (Sour Stew with Reef Eels). Ang Nilarang usa ka lumad 
+       nga pagkaon sa Cebuano nga sagad itandi sa sinigang ug ginama gikan sa pabukalan
+        nga isda nga adunay mga utanon ug utanon, ug gipaaslom sa berdeng mangga ug
+         gipaaslom nga black beans.</p>>
+  <br><br><br><br>
+  <img src="images/reef.jpg" alt="envi" style="width:100%;">
+    <br><br><br><br>
+  <img src="images/reef1.jpg" alt="envi" style="width:100%;">
+  <br><br><br><br>
+  <p class="description"> Ang Parkside Cordova Reef Village Resort nahimutang
+     sa Cordova sa Mactan Island, mga 40 minutos gikan sa Cebu City. Kining
+      beachfront resort anaa sa baybayon nga lungsod sa Cordova sa Mactan Island 
+      ug gilibotan sa dagat sa Camotes sa silangan ug Bohol Strait sa habagatan. 
+      Ang resort adunay 808 square-meter freeform swimming pool ug usa ka health
+       club ug spa. Ang disenyo sa villa sa Parkside Cordiva Reef Village Resort
+        giinspirar sa African tribal villages ug ang mga bisita welcome sa ilang
+         mga villa nga adunay basket nga prutas. Nagtanyag ang resort og lain-laing
+          mga watersports ug mga pasilidad sa kalingawan alang sa scuba diving,
+           pangisda, snorkeling, para-sailing ug boating alang sa sunset cruise
+            ug island hopping tours. Makalingaw ang mga bisita sa beach volleyball,
+             table tennis ug uban pang mga board game nga anaa sa resort.</p>>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
